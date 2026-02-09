@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu - WeedSpeedDelivery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🚀 WeedSpeedDelivery</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="track.html">Track Order</a>
+  </nav>
+</header>
+
+<section class="menu">
+  <h1>Live Menu</h1>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1603909223429-69bb7101f420?q=80&w=600" alt="Premium Flower">
+      <h3>Premium Flower</h3>
+      <p>$40</p>
+      <button onclick="addToCart('Premium Flower')">Add</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1598300188904-6287d52746f8?q=80&w=600" alt="Vape Cart">
+      <h3>Vape Cart</h3>
+      <p>$35</p>
+      <button onclick="addToCart('Vape Cart')">Add</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=600" alt="Edibles">
+      <h3>Edibles</h3>
+      <p>$25</p>
+      <button onclick="addToCart('Edibles')">Add</button>
+    </div>
+
+  </div>
+
+  <div class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cartList"></ul>
+    <p>To complete your order, text dispatch at <strong>585-329-9638</strong>.</p>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
